@@ -90,7 +90,7 @@ const Navbar = () => {
           </button>
 
           <SwitchLang />
-
+{/* 
           {siteConfig.links.length !== 0 &&
             siteConfig.links.map((l: { name: string; link: string }) => (
               <a
@@ -109,7 +109,7 @@ const Navbar = () => {
                   }
                 </span>
               </a>
-            ))}
+            ))} */}
 
           {siteConfig.email && (
             <a href={siteConfig.email} className="flex items-center space-x-2 hover:opacity-80 dark:text-white">
